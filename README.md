@@ -1,14 +1,3 @@
-# A Blank PhoneGap App
+# Onsen-Todo-App
 
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+Following the free Udemy course on onsen and monaca

@@ -1,8 +1,8 @@
-<ons-page>
+<ons-page id="list">
   <ons-toolbar>
     <div class="left">
       <ons-toolbar-button id="splitter-toggle">
-        <ons-icon icon="fa-bars"></ons-icon>
+        <ons-icon icon="fa-bars" onclick="fn.open()"></ons-icon>
       </ons-toolbar-button>
     </div>
     <div class="center" style="text-align: center">To-Do</div>
@@ -12,6 +12,8 @@
       </ons-toolbar-button>
     </div>
   </ons-toolbar>
+
+  <ons-button id="clickme-button">click me</ons-button>
 
   <ons-list id="todo-list"> </ons-list>
 
